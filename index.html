@@ -1,0 +1,201 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>MoversPrime</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#ask-questions">Ask Questions</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>MoversPrime</h1>
+            <img src="images/truck.png" alt="Moving Truck">
+        </div>
+    </header>
+<main>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu dignissim eleifend, augue metus convallis nulla, eu efficitur metus felis eu felis.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service">
+            <img src="images/box.png" alt="Box">
+            <h3>Packing & Unpacking</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu dignissim eleifend, augue metus convallis nulla, eu efficitur metus felis eu felis.</p>
+        </div>
+
+        <div class="service">
+            <img src="images/truck.png" alt="Truck">
+            <h3>Moving & Storage</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu dignissim eleifend, augue metus convallis nulla, eu efficitur metus felis eu felis.</p>
+        </div>
+
+        <div class="service">
+            <img src="images/tools.png" alt="Tools">
+            <h3>Packing Materials</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu dignissim eleifend, augue metus convallis nulla, eu efficitur metus felis eu felis.</p>
+        </div>
+    </section>
+
+    <section id="ask-questions">
+        <h2>Ask Questions</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="question">Question:</label>
+            <textarea id="question" name="question"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 MoversPrime</p>
+</footer>
+</body>
+</html>
+/* Style Sheet */
+
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+}
+
+img {
+    height: 80px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #111;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.service {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+h3 {
+    color: #111;
+    font-size: 18px;
+    margin: 0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin: 0;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: #111;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
